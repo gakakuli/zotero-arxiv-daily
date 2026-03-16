@@ -16,6 +16,7 @@ arxiv.Result._get_pdf_url = _get_pdf_url_patch
 import argparse
 import os
 import sys
+import time
 from dotenv import load_dotenv
 load_dotenv(override=True)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
